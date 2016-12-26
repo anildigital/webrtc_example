@@ -3,6 +3,7 @@ defmodule WebrtcExample.UserSocket do
 
   ## Channels
   # channel "room:*", WebrtcExample.RoomChannel
+  channel "videochat:lobby", WebrtcExample.VideochatChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
