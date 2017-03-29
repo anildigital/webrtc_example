@@ -10,10 +10,10 @@ config :webrtc_example, WebrtcExample.Endpoint,
 config :logger, level: :warn
 
 # Configure your database
-config :webrtc_example, WebrtcExample.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "webrtc_example_test",
-  hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox
+# config :webrtc_example, WebrtcExample.Repo,
+#   adapter: Ecto.Adapters.Postgres,
+#   username: "postgres",
+#   password: "postgres",
+#   database: "webrtc_example_test",
+#   hostname: "localhost",
+#   pool: Ecto.Adapters.SQL.Sandbox

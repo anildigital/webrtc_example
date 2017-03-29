@@ -18,11 +18,11 @@ defmodule WebrtcExample.Web do
 
   def model do
     quote do
-      use Ecto.Schema
+      # use Ecto.Schema
 
-      import Ecto
-      import Ecto.Changeset
-      import Ecto.Query
+      # import Ecto
+      # import Ecto.Changeset
+      # import Ecto.Query
     end
   end
 
@@ -31,8 +31,8 @@ defmodule WebrtcExample.Web do
       use Phoenix.Controller
 
       alias WebrtcExample.Repo
-      import Ecto
-      import Ecto.Query
+      # import Ecto
+      # import Ecto.Query
 
       import WebrtcExample.Router.Helpers
       import WebrtcExample.Gettext
@@ -66,8 +66,8 @@ defmodule WebrtcExample.Web do
       use Phoenix.Channel
 
       alias WebrtcExample.Repo
-      import Ecto
-      import Ecto.Query
+      # import Ecto
+      # import Ecto.Query
       import WebrtcExample.Gettext
     end
   end
