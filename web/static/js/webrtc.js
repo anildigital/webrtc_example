@@ -110,6 +110,7 @@ var WebRTC = (function () {
 
     function gotRemoteStream(event) {
         console.log('got remote stream');
+        console.log(event.stream);
         remoteVideo.src = window.URL.createObjectURL(event.stream);
     }
 
